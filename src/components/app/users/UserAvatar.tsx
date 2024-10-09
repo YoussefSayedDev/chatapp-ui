@@ -1,7 +1,7 @@
 "use client";
-import { User } from "@/components/types/interfaces";
 import { useChat } from "@/hooks/useChat";
 import { useUser } from "@/hooks/useUser";
+import { User } from "@/types/interfaces";
 import { baseUrl, getRequest, postRequest } from "@/utils/services";
 import Image from "next/image";
 import { FC } from "react";
