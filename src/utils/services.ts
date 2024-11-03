@@ -1,4 +1,5 @@
-export const baseUrl = "http://localhost:5000/api";
+// export const baseUrl = "http://localhost:5000/api";
+export const baseUrl = "candid-hummingbird-6eee9d.netlify.app/api";
 
 // Function To Handle The Post Requests
 export const postRequest = async (url: string, body: string) => {
